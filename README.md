@@ -22,11 +22,13 @@
 [Postman Link](https://www.postman.com/lively-satellite-954449/workspace/spinny)
 #### Login
 
- ```js
+ ```cUrl
  curl --location 'http://127.0.0.1:8000/api/login/' \
 --form 'username="happy"' \
 --form 'password="YasH*8938#"' 
 ```
+User added by admin
+` $ python manage.py createsuperuser `
 
 #### Create Cuboid 
 
@@ -51,6 +53,7 @@ curl --location 'http://127.0.0.1:8000/api/box/ \
 --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjk1NTM5MTg3LCJpYXQiOjE2OTI5NDcxODcsImp0aSI6ImZjNWNjMjViNjEzYjQ1M2FiMTRlMWU0MjExOTQzMzI3IiwidXNlcl9pZCI6Mn0.jhQDChxd2MdMRHasrzs1Va7emAWrXx4LO6967xT8AkY'
 ```
 ###### List Filter 
+
 length_more_than,
 length_less_than,
 breadth_more_than,
