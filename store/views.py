@@ -17,17 +17,17 @@ class Box_view(APIView):
     permission_classes = [IsAuthenticated]
     Not_Staff = "sorry you can't create box"
     qury = {
-        "Length__gt": "length_more_than",
-        "Length__lt": "length_less_than",
-        "width__gt": "breadth_more_than",
-        "width__lt": "breadth_less_than",
-        "Height__gt": "height_more_than",
-        "Area__lt": "Area_less_than",
-        "Area__gt": "Area_more_than",
-        "Volume__lt": "Volume_less_than",
-        "Volume__gt": "Volume_more_than",
-        "Last_Updated__gt": "Ceated_after",
-        "Last_Updated__lt": "Ceated_before",
+        "Length__gt":           "length_more_than",
+        "Length__lt":           "length_less_than",
+        "width__gt":            "breadth_more_than",
+        "width__lt":            "breadth_less_than",
+        "Height__gt":           "height_more_than",
+        "Area__lt":             "Area_less_than",
+        "Area__gt":             "Area_more_than",
+        "Volume__lt":           "Volume_less_than",
+        "Volume__gt":           "Volume_more_than",
+        "Last_Updated__gt":     "Ceated_after",
+        "Last_Updated__lt":     "Ceated_before",
         "Created_by__username": "username",
     }
 
